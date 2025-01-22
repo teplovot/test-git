@@ -1,0 +1,66 @@
+h1, h2, h3, p {
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;  
+}
+
+ol > li {
+    margin-bottom: 25px;
+}
+
+.container{
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+
+table {
+    border-collapse: collapse; /* Злиття рамок */
+    width: 100%; /* Ширина таблиці */
+}
+
+td {
+    border: 1px solid black; /* Рамка для заголовків та даних */
+    padding: 10px; /* Відступи всередині ячеек */
+}
+
+td p {
+    margin: 30px 0 0 60px;  
+}
+
+table img {
+    max-width: 200px;  
+}
+
+.left-col {
+    text-align: center;
+}
+
+.image {
+    float: left;
+    padding: 0 15px 15px 0;    
+    max-width: 300px; 
+}
+
+.center {
+    text-align: center;
+}
+
+.quality {
+    margin-bottom: 100px;
+}
